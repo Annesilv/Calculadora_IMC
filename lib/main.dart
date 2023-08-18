@@ -66,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 controller: controllerPeso,
                 decoration: const InputDecoration(
                     labelText: 'Peso',
-                    hintText: 'Digite seu peso',
+                    hintText: 'Diigite seu peso',
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.all(
                       Radius.circular(10.0),
