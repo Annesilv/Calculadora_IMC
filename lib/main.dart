@@ -41,7 +41,6 @@ class _MyHomePageState extends State<MyHomePage> {
       resultado = '';
     });
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -80,7 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 keyboardType: const TextInputType.numberWithOptions(),
                 controller: controllerAlturar,
                 decoration: const InputDecoration(
-                    labelText: 'Altura',
+                    labelText: 'ALTURA',
                     hintText: 'Digite sua altura',
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.all(
